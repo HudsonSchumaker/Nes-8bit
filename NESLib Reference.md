@@ -19,3 +19,7 @@ ppu_system()                       | Returns zero for PAL, non-zero for  NTSC. <
 nesclock()                         | Returns 8-bit counter incremented  at every NMI. <br>
 get_ppu_ctrl_var()                 | Get the internal PPU_CTRL variable.  <br>
 set_ppu_ctrl_var(v)                | Set the internal PPU_CTRL variable. <br>
+oam_clear()                        | Clear OAM sprite buffer.   <br>
+oam_size(size)                     | Set 0 for 8x8 sprites, 1 for 8x16  sprites.  <br>
+oam_spr(x,y,c,a,id)                | Add sprite entry to OAM.  <br>
+oam_meta_spr(x,y,id,*data)         | Add metasprite to OAM. <br>
