@@ -23,3 +23,4 @@ oam_clear()                        | Clear OAM sprite buffer.   <br>
 oam_size(size)                     | Set 0 for 8x8 sprites, 1 for 8x16  sprites.  <br>
 oam_spr(x,y,c,a,id)                | Add sprite entry to OAM.  <br>
 oam_meta_spr(x,y,id,*data)         | Add metasprite to OAM. <br>
+oam_hide_rest(id)                  | Hide OAM entries starting from  given index. 
