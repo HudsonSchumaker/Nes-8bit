@@ -1,3 +1,6 @@
+Nes lib reference
+#include "neslib.h"
+
 | Function                         | Description                                                         |
 -----------------------------------|----------------------------------------------------------------------
 pal_col(index,color)               | Set the color of a palette entry.  <br>
