@@ -1,19 +1,21 @@
-pal_col(index,color) Set the color of a palette entry.  <br>
-pal_bg(*data) Set the background palette from a  16-byte array. <br>
-pal_spr(*data) Set the sprite palette from a 16-byte  array. <br>
-pal_all(*data) Set the background and sprite  palettes from a 32-byte array. <br>
-pal_clear() Reset all palette colors to black. <br>
-pal_bright(level) Set virtual bright level (0=black,  4=normal, 8=white) <br>
-pal_bg_bright(level) Set virtual bright level for background only. <br>
-pal_spr_bright(level) Set virtual bright level for sprites  only. <br>
-ppu_wait_nmi() Wait for next NMI (60 Hz) <br>
-ppu_wait_frame() Wait for next NMI, but skips frames  in NTSC to achieve 50 Hz.<br>
-ppu_off() Turn off PPU rendering.  <br>
-ppu_on_all() Turn on background and sprites.<br>
-ppu_on_bg() Turn on background only. <br>
-ppu_on_spr() Turn on sprites only. <br>
-ppu_mask(mask) Set PPU_MASK directly.  <br>
-ppu_system() Returns zero for PAL, non-zero for  NTSC.  <br>
-nesclock() Returns 8-bit counter incremented  at every NMI. <br>
-get_ppu_ctrl_var() Get the internal PPU_CTRL variable.  <br>
-set_ppu_ctrl_var(v) Set the internal PPU_CTRL variable. <br>
+| Function                         | Description                                                         |
+-----------------------------------|----------------------------------------------------------------------
+pal_col(index,color)               | Set the color of a palette entry.  <br>
+pal_bg(*data)                      | Set the background palette from a  16-byte array. <br>
+pal_spr(*data)                     | Set the sprite palette from a 16-byte  array. <br>
+pal_all(*data)                     | Set the background and sprite  palettes from a 32-byte array. <br>
+pal_clear()                        | Reset all palette colors to black. <br>
+pal_bright(level)                  | Set virtual bright level (0=black,  4=normal, 8=white) <br>
+pal_bg_bright(level)               | Set virtual bright level for background only. <br>
+pal_spr_bright(level)              | Set virtual bright level for sprites  only. <br>
+ppu_wait_nmi()                     | Wait for next NMI (60 Hz) <br>
+ppu_wait_frame()                   | Wait for next NMI, but skips frames  in NTSC to achieve 50 Hz.<br>
+ppu_off()                          | Turn off PPU rendering.  <br>
+ppu_on_all()                       | Turn on background and sprites.<br>
+ppu_on_bg()                        | Turn on background only. <br>
+ppu_on_spr()                       | Turn on sprites only. <br>
+ppu_mask(mask)                     | Set PPU_MASK directly.  <br>
+ppu_system()                       | Returns zero for PAL, non-zero for  NTSC. <br>
+nesclock()                         | Returns 8-bit counter incremented  at every NMI. <br>
+get_ppu_ctrl_var()                 | Get the internal PPU_CTRL variable.  <br>
+set_ppu_ctrl_var(v)                | Set the internal PPU_CTRL variable. <br>
