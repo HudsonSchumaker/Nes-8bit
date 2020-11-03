@@ -26,4 +26,13 @@ oam_clear()                        | Clear OAM sprite buffer.   <br>
 oam_size(size)                     | Set 0 for 8x8 sprites, 1 for 8x16  sprites.  <br>
 oam_spr(x,y,c,a,id)                | Add sprite entry to OAM.  <br>
 oam_meta_spr(x,y,id,*data)         | Add metasprite to OAM. <br>
-oam_hide_rest(id)                  | Hide OAM entries starting from  given index. 
+oam_hide_rest(id)                  | Hide OAM entries starting from  given index.  <br>
+famitone_init(*data)               | Initialize FamiTone music library.  <br>
+sfx_init(*data)                    | Initialize FamiTone sound effects.   <br>
+music_play(index)                  | Play a FamiTone song.  <br> 
+music_stop()                       | Stop music. <br>  
+music_pause()                      | Pause and unpause music.   <br>
+sfx_play(index,channel)            | Play sound effect on channel 0-3.  <br> 
+sample_play(sample)                | Play a DMC sample.   <br>
+famitone_update()                  | Called once per NMI.  <br>
+
