@@ -35,4 +35,6 @@ music_pause()                      | Pause and unpause music.   <br>
 sfx_play(index,channel)            | Play sound effect on channel 0-3.  <br> 
 sample_play(sample)                | Play a DMC sample.   <br>
 famitone_update()                  | Called once per NMI.  <br>
-
+pad_poll(pad)                      | Poll controller input. 
+pad_trigger(pad)                   | Poll in trigger mode.  
+pad_state(pad)                     | Get previously polled pad state. 
