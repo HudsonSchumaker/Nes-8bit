@@ -43,4 +43,12 @@ split(x,y)                         | Split screen at Y position (requires sprite
 splitxy(x,y)                       | Split screen, setting both X and Y  scroll values. <br> 
 bank_bg(n)                         | Set background CHR bank (0 or 1). <br>  
 bank_spr(n)                        | Set sprite CHR bank (0 or 1). <br> 
+vram_adr(adr)                      | Set PPU VRAM address. <br> 
+vram_put(n)                        | Write a byte to VRAM. <br> 
+vram_fill(n,len)                   | Write len copies of byte n. <br>
+vram_inc(n)                        | Set auto-increment (0=+1, 1=+32) <br>
+vram_read(*dst,size)               | Read a block of size bytes from  VRAM to dst. <br>
+vram_write(*src,size)              | Write a block of size bytes from src  to VRAM. <br>
+
+
 
