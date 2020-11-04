@@ -54,6 +54,7 @@ vram_read(*dst,size)               | Read a block of size bytes from  VRAM to ds
 vram_write(*src,size)              | Write a block of size bytes from src  to VRAM. <br>
 vram_unrle(*data)                  | Unpack RLE data to VRAM. <br>
 vram_unlz4(*data)                  | Unpack LZ4 data to VRAM. <br>
+|                                  | |
 set_vram_update(*buf)              | Enable VRAM buffer updates with  buffer buf. <br>
 flush_vram_update(*buf)            | Flush VRAM buffer to PPU immediately.  <br>
 delay(frames)                      | Delay a number of frames. <br>
