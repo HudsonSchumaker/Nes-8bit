@@ -1,6 +1,6 @@
 # Nes-8bit
 Developing games for the NES with C and 6502 Assembler
-Bare basics for create an Atari 2600 game
+Bare basics for create a Nes game
 
 Programming for the Nes<br>
 Assembly 6502 Language<br>
