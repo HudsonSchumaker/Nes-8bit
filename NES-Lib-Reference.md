@@ -45,6 +45,7 @@ split(x,y)                         | Split screen at Y position (requires sprite
 splitxy(x,y)                       | Split screen, setting both X and Y  scroll values. <br> 
 bank_bg(n)                         | Set background CHR bank (0 or 1). <br>  
 bank_spr(n)                        | Set sprite CHR bank (0 or 1). <br> 
+|                                  | |
 vram_adr(adr)                      | Set PPU VRAM address. <br> 
 vram_put(n)                        | Write a byte to VRAM. <br> 
 vram_fill(n,len)                   | Write len copies of byte n. <br>
