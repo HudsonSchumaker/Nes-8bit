@@ -2,7 +2,7 @@
 #include "neslib.h"
 
 | Function                         | Description                                                         |
------------------------------------|----------------------------------------------------------------------
+|----------------------------------|---------------------------------------------------------------------|
 pal_col(index,color)               | Set the color of a palette entry.  <br>
 pal_bg(*data)                      | Set the background palette from a  16-byte array. <br>
 pal_spr(*data)                     | Set the sprite palette from a 16-byte  array. <br>
@@ -11,6 +11,7 @@ pal_clear()                        | Reset all palette colors to black. <br>
 pal_bright(level)                  | Set virtual bright level (0=black,  4=normal, 8=white) <br>
 pal_bg_bright(level)               | Set virtual bright level for background only. <br>
 pal_spr_bright(level)              | Set virtual bright level for sprites  only. <br>
+|                                  | |
 ppu_wait_nmi()                     | Wait for next NMI (60 Hz) <br>
 ppu_wait_frame()                   | Wait for next NMI, but skips frames  in NTSC to achieve 50 Hz.<br>
 ppu_off()                          | Turn off PPU rendering.  <br>
