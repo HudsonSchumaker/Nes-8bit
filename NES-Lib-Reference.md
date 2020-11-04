@@ -20,6 +20,7 @@ ppu_on_bg()                        | Turn on background only. <br>
 ppu_on_spr()                       | Turn on sprites only. <br>
 ppu_mask(mask)                     | Set PPU_MASK directly.  <br>
 ppu_system()                       | Returns zero for PAL, non-zero for  NTSC. <br>
+|                                  | |
 nesclock()                         | Returns 8-bit counter incremented  at every NMI. <br>
 get_ppu_ctrl_var()                 | Get the internal PPU_CTRL variable.  <br>
 set_ppu_ctrl_var(v)                | Set the internal PPU_CTRL variable. <br>
