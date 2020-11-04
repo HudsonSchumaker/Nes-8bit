@@ -2,7 +2,7 @@
 Developing games for the NES with C and 6502 Assembler
 Bare basics for create an Atari 2600 game
 
-Programming for the Nes0<br>
+Programming for the Nes<br>
 Assembly 6502 Language<br>
 Manipulating Video, Audio, and Input data
 
