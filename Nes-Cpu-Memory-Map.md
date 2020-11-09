@@ -1,5 +1,13 @@
 # NES - CPU ([Ricoh 2A03](https://en.wikipedia.org/wiki/Ricoh_2A03)) Memory Map
 
+NES CPU bus:  
+• PRG RAM: Memory that the CPU can read from and write to (modify). <br>
+• PRG ROM: The program code included on the game cartridge. The CPU can read this data, but can’t write to it. <br>
+• PPU (Picture Processing Unit): Generates the video signal. <br>
+• APU (Audio Processing Unit): Generates audio. <br>
+• Additional components in the game cartridge, which may include extra RAM, ROM, or registers. <br><br>
+
+
 Address Range | Size           | Notes                                                                                |
 --------------|----------------|--------------------------------------------------------------------------------------|
 $0000–$00FF	  | 256 bytes      | Zero Page — Special Zero Page addressing modes give faster memory read/write access  |
