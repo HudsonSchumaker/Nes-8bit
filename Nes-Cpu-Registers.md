@@ -1,6 +1,6 @@
 # NES - CPU ([Ricoh 2A03](https://en.wikipedia.org/wiki/Ricoh_2A03)) Registers
 
-CPU Registers:
+CPU Registers: <br>
 The 6502 has fewer registers than similar processors. There are three special purpose
 registers, the program counter, stack pointer and status register which each have a specific
 use. It also has three general purpose registers, the accumulator and the index registers, X
