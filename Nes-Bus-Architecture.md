@@ -1,4 +1,4 @@
-# Nes
+# Nes -  Bus Architecture
 
                   --------------------------------------------------------------------------        
         2A03 chip |                            CPU 6502                                    | ---> Game Controllers serial input 
