@@ -1,4 +1,4 @@
-# Nes lib reference
+# Nes Lib Reference
 #include "neslib.h"
 
 | Function                         | Description                                                         |
