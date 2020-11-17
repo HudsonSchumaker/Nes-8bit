@@ -1,8 +1,8 @@
 
 Nes Controller
 
-
-
+Each switch can be mapped to a bit in a byte, so that 1 is "pressed" and 0 is "not pressed".
+There are eight switches, so the controller state fits into a single byte:
 
 |-----------|-------|------|------|------|-------|--------|-----|-----|
 | Bit index |   7   |   6  |   5  |   4  |   3   |   2    |  1  |  0  |
