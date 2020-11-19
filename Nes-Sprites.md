@@ -6,4 +6,6 @@ This selects a tile in the pattern table from 0-255, or if bit 3 of PPU_CTRL is 
 • 8x16 Mode: 
 Two consecutive tiles are selected, the first for the top half and the second for the bottom half. 
 
-
+# OAM Buffer
+The sprite data is held in 256 bytes of RAM inside the PPU called OAM (Object Attribute Memory). 
+The PPU can fill OAM  by reading directly from the CPU’s RAM, usually once per video frame.
