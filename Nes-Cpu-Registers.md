@@ -19,3 +19,38 @@ Index Register Y (Y)
 The Y register is an 8-bit register which is used in the same way as the X register, as a
 counter or to store an offset. Unlike the X register, the Y register cannot affect the stack
 pointer. 
+
+7                                 0
+-----------------------------------
+|               A                 |  Accumulator 
+-----------------------------------
+
+7                                 0
+-----------------------------------
+|               X                 | Index register X
+-----------------------------------
+
+7                                 0
+-----------------------------------
+|               Y                 | Index register Y
+-----------------------------------
+
+15                                                                   0 
+----------------------------------------------------------------------
+|               PCH                |               PCL               | Program counter
+----------------------------------------------------------------------
+
+7                                 0
+-----------------------------------
+|               S                 | Stack pointer
+-----------------------------------
+
+
+
+
+
+
+
+
+
+
