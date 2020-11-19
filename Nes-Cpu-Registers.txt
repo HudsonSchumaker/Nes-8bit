@@ -45,7 +45,6 @@ pointer.
 |               S                 | Stack pointer
 -----------------------------------
 
-
 7                                 0
 -----------------------------------
 | N | V |     | B | D | I | Z | C | Processor status register "P"
