@@ -25,5 +25,9 @@ S    |           | <-------------------------- 256 pixels ----------------------
      <---------------------------------- 113 2/3 CPU cycles ------------------------------------------->
      
      
-    
+When using NTSC mode, ppu_wait_frame() slows it down by waiting one extra frame every five frames so that the game runs at 50 Hz. 
+Therefore, if you call the function 50 times, it will  always take one second in either mode. ppu_wait_nmi() waits until the next video frame, 
+whether in  PAL or NTSC mode. So calling this function 60 times takes one  second in NTSC, and 1.2 seconds in PAL. 
+
+
    
