@@ -9,16 +9,14 @@ There are eight switches, so the controller state fits into a single byte:
 | Switch    | right | left | down |  up  | start | select |  B  |  A  |                                                  
 |-----------|-------|------|------|------|-------|--------|-----|-----|
 
-
 // poll controller i (0-1)
 pad = pad_poll(i);
 
-// read controller i in trigger mode 
+// reads controller i in trigger mode 
 pad = pad_trigger(i);
 
-
-
-
+// gets the last known state of controller input
+pad pad_state(i);
 
 |------------------------------------------------------------------|
 |          U                                                       |
