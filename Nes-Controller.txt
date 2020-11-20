@@ -10,6 +10,11 @@ There are eight switches, so the controller state fits into a single byte:
 |-----------|-------|------|------|------|-------|--------|-----|-----|
 
 
+ // poll controller i (0-1)
+ pad = pad_poll(i);
+
+
+
 |------------------------------------------------------------------|
 |          U                                                       |
 |          /\                                                      |
