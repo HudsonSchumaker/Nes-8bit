@@ -16,11 +16,10 @@ void main(void) {
   // write text to name table
   vram_adr(NTADR_A(2, 2));	// set address
   vram_write("SCHUMAKER TEAM", 14);
-  if(ppu_system()) {
+  if (ppu_system()) {
      vram_adr(NTADR_A(2, 4));	
      vram_write("NTSC", 4);
-  }
-  else {
+  } else {
      vram_adr(NTADR_A(2, 4));	
      vram_write("PAL", 3);
   }
@@ -29,5 +28,5 @@ void main(void) {
   ppu_on_all();
 
   // infinite loop
-  for(;;);
+  for (;;);
 }
