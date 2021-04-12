@@ -41,7 +41,7 @@ pad_poll(pad)                      | Poll controller input. <br>
 pad_trigger(pad)                   | Poll in trigger mode.  <br> 
 pad_state(pad)                     | Get previously polled pad state. <br> 
 scroll(x, y)                       | Set X and Y scroll shadow registers.<br> 
-split(x,y)                         | Split screen at Y position (requires sprite 0 setup first). Only sets the X scroll value. <br>   
+split(x, y)                        | Split screen at Y position (requires sprite 0 setup first). Only sets the X scroll value. <br>   
 splitxy(x,y)                       | Split screen, setting both X and Y  scroll values. <br> 
 bank_bg(n)                         | Set background CHR bank (0 or 1). <br>  
 bank_spr(n)                        | Set sprite CHR bank (0 or 1). <br> 
