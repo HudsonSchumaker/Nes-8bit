@@ -3,7 +3,7 @@
 
 | Function                         | Description                                                         |
 |----------------------------------|---------------------------------------------------------------------|
-pal_col(index,color)               | Set the color of a palette entry.  <br>
+pal_col(index, color)              | Set the color of a palette entry.  <br>
 pal_bg(*data)                      | Set the background palette from a  16-byte array. <br>
 pal_spr(*data)                     | Set the sprite palette from a 16-byte  array. <br>
 pal_all(*data)                     | Set the background and sprite  palettes from a 32-byte array. <br>
