@@ -14,7 +14,7 @@ void main(void) {
   pal_col(3, 0x30);	// white
 
   // write text to name table
-  vram_adr(NTADR_A(2, 2));		// set address
+  vram_adr(NTADR_A(2, 2));	// set address
   vram_write("SCHUMAKER TEAM", 14);
   if(ppu_system()) {
      vram_adr(NTADR_A(2, 4));	
