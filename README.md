@@ -15,4 +15,5 @@ Manipulating Video, Audio, and Input data
 [NES Dev Wiki](http://wiki.nesdev.com/w/index.php/Nesdev_Wiki) <br>
 [NES Color Palettes](https://en.wikipedia.org/wiki/List_of_video_game_console_palettes#NES) <br>
 [NerdyNights NES Programming Tutorials](http://nerdy-nights.nes.science/) <br>
-[NES Doug](https://nesdoug.com/)
+[NES Doug](https://nesdoug.com/) <br>
+[NES Starter Kit](https://cppchriscpp.github.io/nes-starter-kit/)
