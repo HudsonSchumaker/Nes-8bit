@@ -17,7 +17,7 @@ void put_str(unsigned int adr, const char *str) {
 // function to scroll window up and down until end
 void scroll_demo() {
   int x = 0;   // x scroll position
-  int y = 255;   // y scroll position
+  int y = 255; // y scroll position
   int dy = 1;  // y scroll direction
   
   // infinite loop
