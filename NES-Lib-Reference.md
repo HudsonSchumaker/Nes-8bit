@@ -34,7 +34,7 @@ sfx_init(*data)                    | Initialize FamiTone sound effects.   <br>
 music_play(index)                  | Play a FamiTone song.  <br> 
 music_stop()                       | Stop music. <br>  
 music_pause()                      | Pause and unpause music.   <br>
-sfx_play(index,channel)            | Play sound effect on channel 0-3.  <br> 
+sfx_play(index, channel)           | Play sound effect on channel 0-3.  <br> 
 sample_play(sample)                | Play a DMC sample.   <br>
 famitone_update()                  | Called once per NMI.  <br>
 pad_poll(pad)                      | Poll controller input. <br> 
