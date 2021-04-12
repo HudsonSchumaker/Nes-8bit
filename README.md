@@ -14,5 +14,5 @@ Manipulating Video, Audio, and Input data
 [6502 CPU op codes](http://www.6502.org/tutorials/6502opcodes.html) <br>
 [NES Dev Wiki](http://wiki.nesdev.com/w/index.php/Nesdev_Wiki) <br>
 [NES Color Palettes](https://en.wikipedia.org/wiki/List_of_video_game_console_palettes#NES) <br>
-[NerdyNights NES Programming Tutorials](http://nerdy-nights.nes.science/)
+[NerdyNights NES Programming Tutorials](http://nerdy-nights.nes.science/) <br>
 [NES Doug](https://nesdoug.com/)
