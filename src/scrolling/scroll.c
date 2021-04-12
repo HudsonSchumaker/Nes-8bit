@@ -37,9 +37,9 @@ void scroll_demo() {
 // main function, run after console reset
 void main(void) {
   // set palette colors
-  pal_col(0,0x0D);	// set screen to dark red
-  pal_col(1,0x02);	// pink
-  pal_col(2,0x02);	// grey
+  pal_col(0,0x0D);	// set screen to black
+  pal_col(1,0x02);	// blue
+  pal_col(2,0x02);	// blue
   pal_col(3,0x021);	// white
 
   // write text to name table
