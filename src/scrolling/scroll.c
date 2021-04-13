@@ -43,7 +43,7 @@ void main(void) {
   pal_col(3, 0x021);	// cyan?
 
   // write text to name table
-  put_str(NTADR_A(2,0), "SchumakerTeam");
+  put_str(NTADR_A(2, 0), "SchumakerTeam");
 
   // enable PPU rendering (turn on screen)
   ppu_on_all();
