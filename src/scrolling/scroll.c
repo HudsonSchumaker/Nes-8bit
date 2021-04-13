@@ -10,7 +10,7 @@
 // adr = start address in name table
 // str = pointer to string
 void put_str(unsigned int adr, const char *str) {
-  vram_adr(adr);        // set PPU read/write address
+  vram_adr(adr);                // set PPU read/write address
   vram_write(str, strlen(str)); // write bytes to PPU
 }
 
@@ -37,10 +37,10 @@ void scroll_demo() {
 // main function, run after console reset
 void main(void) {
   // set palette colors
-  pal_col(0, 0x0D);	// set screen to black
-  pal_col(1, 0x02);	// blue
-  pal_col(2, 0x02);	// blue
-  pal_col(3, 0x021);	// cyan?
+  pal_col(0, 0x0D);	  // set screen to black
+  pal_col(1, 0x02);	  // blue
+  pal_col(2, 0x02);	  // blue
+  pal_col(3, 0x21);	// cyan?
 
   // write text to name table
   put_str(NTADR_A(2, 0), "SchumakerTeam");
