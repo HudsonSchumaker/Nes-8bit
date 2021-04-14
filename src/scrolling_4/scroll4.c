@@ -26,14 +26,14 @@ void scroll_demo() {
     // update x variable
     x += dx;
     
-    // change direction
+    // change direction for x (Horizontal)
     if (x >= 511) dx = -1;
     if (x == 0) dx = 1;
     
     // update y variable
     y += dy;
     
-    // change direction 
+    // change direction y (Vertical)
     if (y >= 479) dy = -1;
     if (y == 0) dy = 1;
     
