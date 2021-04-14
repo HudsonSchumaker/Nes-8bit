@@ -11,7 +11,7 @@ void put_str(unsigned int adr, const char *str) {
   vram_write(str, strlen(str)); // write bytes to PPU
 }
 
-// function to scroll window up and down until end
+// function to scroll window up,down,left and right until end
 void scroll_demo() {
   int x = 0;   // x scroll position
   int dx = 1;   // x scroll direction
