@@ -40,7 +40,7 @@ void main(void) {
   pal_col(0, 0x0D);	  // set screen to black
   pal_col(1, 0x02);	  // blue
   pal_col(2, 0x02);	  // blue
-  pal_col(3, 0x21);	// cyan?
+  pal_col(3, 0x21);	  // cyan?
 
   // write text to name table
   put_str(NTADR_A(2, 0), "SchumakerTeam");
