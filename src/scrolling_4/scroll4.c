@@ -1,4 +1,4 @@
-//Hudson Schumaker
+// Hudson Schumaker
 
 #include "neslib.h"
 #include <string.h>
