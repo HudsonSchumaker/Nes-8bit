@@ -6,9 +6,6 @@
 // link the pattern table into CHR ROM
 //#link "chr_generic.s"
 
-// function to write a string into the name table
-//   adr = start address in name table
-//   str = pointer to string
 void put_str(unsigned int adr, const char *str) {
   vram_adr(adr);        // set PPU read/write address
   vram_write(str, strlen(str)); // write bytes to PPU
