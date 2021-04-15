@@ -1,6 +1,6 @@
 # NES - CPU ([Ricoh 2A03](https://en.wikipedia.org/wiki/Ricoh_2A03)) Memory Map
 
-NES CPU bus:  
+NES [CPU](https://github.com/HudsonSchumaker/Nes-8bit/blob/main/Nes-Cpu-Registers.txt) bus:  
 • PRG RAM: Memory that the CPU can read from and write to (modify). <br>
 • PRG ROM: The program code included on the game cartridge. The CPU can read this data, but can’t write to it. <br>
 • PPU (Picture Processing Unit): Generates the video signal. <br>
