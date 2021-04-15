@@ -1,6 +1,6 @@
 // Hudson Schumaker
 
-/*
+/* Attribute table demo from 8bitworkshop with some changes.
 Setting the attribute table, which controls palette selection
 for the nametable. We copy it from an array in ROM to video RAM.
 */
