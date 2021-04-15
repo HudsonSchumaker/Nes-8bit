@@ -1,5 +1,7 @@
 # Nes Sprites
 
+The [PPU](https://github.com/HudsonSchumaker/Nes-8bit/blob/main/Nes-PPU-Specs.md) can render up to 64 sprites.
+
 • 8x8 Mode: 
 This selects a tile in the pattern table from 0-255, or if bit 3 of PPU_CTRL is set, a tile from 256-511.  
 
