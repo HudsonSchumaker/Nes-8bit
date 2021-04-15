@@ -1,7 +1,7 @@
-// 
+// Hudson Schumaker
 
 /*
-Scrolling demo.
+Scrolling demo from 8bitworkshop with some changes.
 We've selected horizontal mirroring as the default, so
 nametables A and C are stacked on top of each other.
 The vertical scroll area is 480 pixels high; note how
