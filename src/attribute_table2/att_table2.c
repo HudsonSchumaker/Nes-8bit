@@ -1,3 +1,5 @@
+// Hudson Schumaker
+
 #include "neslib.h"
 #include <string.h>
 #include <stdlib.h>
