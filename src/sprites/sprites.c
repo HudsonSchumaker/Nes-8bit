@@ -1,3 +1,4 @@
+// Hudson Schumaker
 /*
 Sprite demo.
 Animate all 64 hardware sprites.
