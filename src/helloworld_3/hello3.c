@@ -1,3 +1,5 @@
+// Hudson Schumaker
+
 #include "neslib.h"
 
 // link the pattern table into CHR ROM
@@ -15,10 +17,10 @@ void put_str(unsigned int adr,const char *str) {
 void main(void) {
 	//rendering is disabled at the startup, the palette is all black
 
-   	 pal_col(0,0x02);	// set screen to dark blue
-  	 pal_col(1,0x14);	// fuchsia
-     pal_col(2,0x20);	// grey
-     pal_col(3,0x30);	// white
+   	pal_col(0,0x02);	// set screen to dark blue
+  	pal_col(1,0x14);	// fuchsia
+        pal_col(2,0x20);	// grey
+        pal_col(3,0x30);	// white
 
 	//you can't put data into vram through vram_put while rendering is enabled
 	//so you have to disable rendering to put things like text or a level map
