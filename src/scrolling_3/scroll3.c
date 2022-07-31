@@ -1,4 +1,5 @@
 // Hudson Schumaker
+// Schumaker Lab
 
 /*
 Scrolling demo from 8bitworkshop with some changes.
