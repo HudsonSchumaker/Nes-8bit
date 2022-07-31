@@ -1,4 +1,6 @@
 // Hudson Schumaker
+// Schumaker Lab
+
 #include "neslib.h"
 
 // link the pattern table into CHR ROM
