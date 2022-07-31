@@ -1,4 +1,5 @@
 // Hudson Schumaker
+// Schumaker Lab
 
 #include "neslib.h"
 #include <string.h>
