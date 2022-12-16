@@ -10,7 +10,7 @@ for the nametable. We copy it from an array in ROM to video RAM.
 #include <stdlib.h>
 
 // link the pattern table into CHR ROM
-//#link "chr_generic.s"
+// #link "chr_generic.s"
 
 // attribute table in PRG ROM
 const char ATTRIBUTE_TABLE[0x40] = {
