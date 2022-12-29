@@ -36,9 +36,7 @@ Main:
 LoopForever:
     jmp LoopForever          ; Force an infinite execution loop
 
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;; NMI interrupt handler
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+; NMI interrupt handler
 NMI:
     rti                      ; Return from interrupt
 
