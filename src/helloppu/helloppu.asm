@@ -49,9 +49,7 @@ PaletteData:
 .byte $0F,$2A,$0C,$3A, $0F,$2A,$0C,$3A, $0F,$2A,$0C,$3A, $0F,$2A,$0C,$3A ; Background
 .byte $0F,$10,$00,$26, $0F,$10,$00,$26, $0F,$10,$00,$26, $0F,$10,$00,$26 ; Sprites
 
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;; Vectors with the addresses of the handlers that we always add at $FFFA
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+; Vectors with the addresses of the handlers that we always add at $FFFA
 .segment "VECTORS"
 .word NMI                    ; Address (2 bytes) of the NMI handler
 .word Reset                  ; Address (2 bytes) of the Reset handler
