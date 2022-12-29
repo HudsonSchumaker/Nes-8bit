@@ -5,9 +5,7 @@
 ; PRG-ROM code located at $8000
 .segment "CODE"
 
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;; Subroutine to load all 32 color palette values from ROM
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+; Subroutine to load all 32 color palette values from ROM
 .proc LoadPalette
     ldy #0                   ; Y = 0
 LoopPalette:
@@ -19,9 +17,7 @@ LoopPalette:
     rts                      ; Return from subroutine
 .endproc
 
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;; Reset handler (called when the NES resets or powers on)
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+; Reset handler (called when the NES resets or powers on)
 Reset:
     INIT_NES                 ; Macro to initialize the NES to a known state
 
