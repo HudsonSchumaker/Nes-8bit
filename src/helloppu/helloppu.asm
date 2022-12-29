@@ -40,9 +40,7 @@ LoopForever:
 NMI:
     rti                      ; Return from interrupt
 
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;; IRQ interrupt handler
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+; IRQ interrupt handler
 IRQ:
     rti                      ; Return from interrupt
 
