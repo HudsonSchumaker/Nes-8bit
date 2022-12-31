@@ -1,7 +1,7 @@
 #ifndef _NESLIB_H
 #define _NESLIB_H
 /*
- (C) 2015 Alex Semenov (Shiru)
+ (C) 2015 Alex Semenov (Shiru) 
  (C) 2016 Lauri Kasanen
 
   This software is provided 'as-is', without any express or implied
