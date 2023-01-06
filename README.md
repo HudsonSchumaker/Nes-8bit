@@ -17,5 +17,5 @@ Manipulating Video, Audio, and Input data
 [NerdyNights NES Programming Tutorials](http://nerdy-nights.nes.science/) <br>
 [NES Doug](https://nesdoug.com/) <br>
 [NES Starter Kit](https://cppchriscpp.github.io/nes-starter-kit/) <br>
-[8bit workshop](https://8bitworkshop.com)
+[8bit workshop](https://8bitworkshop.com) <br>
 [NEXXT](https://frankengraphics.itch.io/nexxt)
