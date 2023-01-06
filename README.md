@@ -18,3 +18,4 @@ Manipulating Video, Audio, and Input data
 [NES Doug](https://nesdoug.com/) <br>
 [NES Starter Kit](https://cppchriscpp.github.io/nes-starter-kit/) <br>
 [8bit workshop](https://8bitworkshop.com)
+[NEXXT](https://frankengraphics.itch.io/nexxt)
