@@ -19,6 +19,6 @@ Manipulating Video, Audio, and Input data
 [NES Starter Kit](https://cppchriscpp.github.io/nes-starter-kit/) <br>
 [8bit workshop](https://8bitworkshop.com) <br>
 [NEXXT](https://frankengraphics.itch.io/nexxt) <br>
-[YY-CHR](https://w.atwiki.jp/yychr/)
-[neslightbox](https://famicom.party/neslightbox/))
+[YY-CHR](https://w.atwiki.jp/yychr/) <br>
+[neslightbox](https://famicom.party/neslightbox/)
 
