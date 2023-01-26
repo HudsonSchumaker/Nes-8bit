@@ -22,4 +22,3 @@ Manipulating Video, Audio, and Input data
 [NEXXT](https://frankengraphics.itch.io/nexxt) <br>
 [YY-CHR](https://w.atwiki.jp/yychr/) <br>
 [neslightbox](https://famicom.party/neslightbox/)
-
