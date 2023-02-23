@@ -1,5 +1,5 @@
 .include "consts.inc"
-.include "header.inc"
+.include "header.inc" 
 .include "reset.inc"
 
 ; PRG-ROM code located at $8000
