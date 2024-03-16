@@ -1,5 +1,5 @@
 # Nes-8bit
-Developing games for the NES with C and 6502 Assembler
+Developing games for the NES with C and 6502 Assembler 
 Bare basics for create a Nes game
 
 Programming for the Nes<br>
